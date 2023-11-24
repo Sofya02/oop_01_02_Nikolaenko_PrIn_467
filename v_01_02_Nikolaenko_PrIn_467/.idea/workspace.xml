@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14909e8e-d3c3-4d22-a086-dd76a0e7603e" name="Default Changelist" comment="Добавил меню игры." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="solid" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="KonanWorkspace">
+    <executables />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1ZeWZA1wz4jfWW0NuhVYuY2RpAJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="robots" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vitek\Documents\VSTU\ООАИП\моё\5. SOLID\OOP_Robots\resources" />
+      <recent name="C:\Users\vitek\Documents\VSTU\ООАИП\моё\5. SOLID\OOP_Robots" />
+      <recent name="C:\Users\vitek\Documents\VSTU\ООАИП\моё\5. SOLID\OOP_Robots\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="robots.model.field.cell_objects.power_supplies" />
+      <recent name="robots.model.field.cell_objects" />
+      <recent name="robots.model.field.between_cells_objects" />
+      <recent name="robots.model.field.cells" />
+      <recent name="robots.model.field" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vitek\Documents\VSTU\ООАИП\моё\5. SOLID\OOP_Robots" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="goats.Main" />
+      <module name="v_01_02_Nikolaenko_PrIn_467" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in OOP_Robots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Robots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CellWithMagicGrassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="v_01_02_Nikolaenko_PrIn_467" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.goats.model.field.cells.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.goats.model.field.cells" />
+      <option name="MAIN_CLASS_NAME" value="java.goats.model.field.cells.CellWithMagicGrassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExitCellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="v_01_02_Nikolaenko_PrIn_467" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.goats.model.field.cells.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.goats.model.field.cells" />
+      <option name="MAIN_CLASS_NAME" value="java.goats.model.field.cells.ExitCellTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SunflowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="v_01_02_Nikolaenko_PrIn_467" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.goats.model.field.cell_objects.magic_grass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.goats.model.field.cell_objects.magic_grass" />
+      <option name="MAIN_CLASS_NAME" value="java.goats.model.field.cell_objects.magic_grass.SunflowerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ExitCellTest" />
+        <item itemvalue="JUnit.SunflowerTest" />
+        <item itemvalue="JUnit.CellWithMagicGrassTest" />
+        <item itemvalue="JUnit.All in OOP_Robots" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14909e8e-d3c3-4d22-a086-dd76a0e7603e" name="Default Changelist" comment="" />
+      <created>1585200092469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585200092469</updated>
+      <workItem from="1585200095523" duration="2449000" />
+      <workItem from="1585203204060" duration="94000" />
+      <workItem from="1585203309318" duration="85000" />
+      <workItem from="1585203647318" duration="176000" />
+      <workItem from="1585203960848" duration="51000" />
+      <workItem from="1585204064772" duration="17028000" />
+      <workItem from="1585248212315" duration="569000" />
+      <workItem from="1585370076903" duration="248000" />
+      <workItem from="1585378932762" duration="1764000" />
+      <workItem from="1585458452379" duration="20721000" />
+      <workItem from="1587312000216" duration="1620000" />
+      <workItem from="1587360597221" duration="5950000" />
+      <workItem from="1587370137440" duration="3406000" />
+      <workItem from="1587538759009" duration="1998000" />
+      <workItem from="1587547345122" duration="4277000" />
+      <workItem from="1587614603981" duration="10827000" />
+      <workItem from="1587641306186" duration="9630000" />
+      <workItem from="1587700601806" duration="22553000" />
+      <workItem from="1587733468745" duration="687000" />
+      <workItem from="1587795197872" duration="2187000" />
+      <workItem from="1587813784951" duration="8282000" />
+      <workItem from="1587841547627" duration="653000" />
+      <workItem from="1588227534381" duration="5736000" />
+      <workItem from="1588323245796" duration="17000" />
+      <workItem from="1588323338131" duration="16000" />
+      <workItem from="1588418349595" duration="505000" />
+      <workItem from="1588587589714" duration="688000" />
+      <workItem from="1588689270445" duration="23000" />
+      <workItem from="1588861313847" duration="9193000" />
+      <workItem from="1589009537531" duration="5936000" />
+      <workItem from="1589113901094" duration="72000" />
+      <workItem from="1589374354053" duration="10996000" />
+      <workItem from="1589443756954" duration="3057000" />
+      <workItem from="1589455378407" duration="1230000" />
+      <workItem from="1589546038100" duration="494000" />
+      <workItem from="1589546671541" duration="96000" />
+      <workItem from="1589546783900" duration="3066000" />
+      <workItem from="1589611242493" duration="56000" />
+      <workItem from="1589708319594" duration="181000" />
+      <workItem from="1589712309400" duration="5250000" />
+      <workItem from="1590036015228" duration="745000" />
+      <workItem from="1590221776102" duration="414000" />
+      <workItem from="1590336374753" duration="4533000" />
+      <workItem from="1590518135080" duration="2234000" />
+      <workItem from="1590559252416" duration="5357000" />
+      <workItem from="1590593744520" duration="5801000" />
+      <workItem from="1590635814240" duration="18981000" />
+      <workItem from="1590678838271" duration="12544000" />
+      <workItem from="1590726293950" duration="26171000" />
+      <workItem from="1590779119719" duration="15000" />
+      <workItem from="1590814332794" duration="19028000" />
+      <workItem from="1590937122913" duration="9918000" />
+      <workItem from="1590997315979" duration="1303000" />
+      <workItem from="1591013410913" duration="15000" />
+      <workItem from="1591163455202" duration="1403000" />
+      <workItem from="1591187196418" duration="103000" />
+    </task>
+    <task id="LOCAL-00104" summary="ExitCell реализует ImmutableExitCell">
+      <created>1590637540424</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1590637540424</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Переписал часть с ячейками">
+      <created>1590643683929</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1590643683929</updated>
+    </task>
+    <task id="LOCAL-00106" summary="BetweenCellObjectWithAction наследуется от BetweenCellObject">
+      <created>1590647201363</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1590647201363</updated>
+    </task>
+    <task id="LOCAL-00107" summary="В робота добавлен метод performAction">
+      <created>1590647219687</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1590647219688</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Использование класса ExitCell для переменной exitCell класса Field">
+      <created>1590649963901</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1590649963901</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Добавлен идентификатор для уникальности объектов класса Robot">
+      <created>1590652160437</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1590652160437</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Обнрвлена диаграмма и добавлен уникальный идентификатор в ячейку">
+      <created>1590663282889</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1590663282889</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Удалены ImmutableCell, ImmutableExitCell и ImmutableCellWithPowerSupply">
+      <created>1590663717206</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1590663717206</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Удалён неверный тест">
+      <created>1590680851113</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1590680851114</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Добавлены тесты для CellPowerSupply класса">
+      <created>1590682272325</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1590682272325</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Переместил Тесты для ячейки выхода в пакет cells">
+      <created>1590682330316</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1590682330316</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Удалены ненужные импорты в классе ExitCellTest">
+      <created>1590682400884</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1590682400885</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Добавлены тесты для класса Door">
+      <created>1590682789143</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1590682789143</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Добавлены тесты для класса Accumulator">
+      <created>1590684584045</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1590684584045</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Добавлен конроль за параметрами при создании в конструторк класса PowerSupply">
+      <created>1590684761361</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1590684761361</updated>
+    </task>
+    <task id="LOCAL-00119" summary="В класс BatteryTest добавлен тест на создание батарейки с отрицательным зарядом">
+      <created>1590684792503</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1590684792504</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Исправлен метод charge класса RechargeablePowerSupply&#10;Теперь зарядка будет происходить только от возобнавляемых (Renewable) источников питания">
+      <created>1590685015034</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1590685015035</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Добавлены тесты на методы canLocateAtPosition для классов Accumulator и Battery.">
+      <created>1590685630417</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1590685630417</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Добавлены тесты для класса Windmill">
+      <created>1590688791133</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1590688791133</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Добавил метод getNeighborCells в клас Cell">
+      <created>1590689287373</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1590689287373</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Добавил метод chargePowerSupply в класс Robot">
+      <created>1590689809043</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1590689809043</updated>
+    </task>
+    <task id="LOCAL-00125" summary="В классе RobotTest финализировал events и expectedEvents">
+      <created>1590690781906</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1590690781907</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Добавлены тесты и исправления для метода chargePowerSupply класса Robot">
+      <created>1590692053535</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1590692053535</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Добавил метод getNeighborBetweenCellObjects в клас Cell">
+      <created>1590692860295</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1590692860295</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Добавлены тесты и исправления для метода performAction класса Robot">
+      <created>1590693768754</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1590693768754</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Исправлен тест test_performAction_withSingleDoorAndNotEnoughCharge">
+      <created>1590693949614</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1590693949614</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Исправлена реализация canMove класса Robot и добавлены тесты на возможность">
+      <created>1590731844122</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1590731844122</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Добавлены тесты для робота, при смене батарейки">
+      <created>1590732900263</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1590732900263</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Добавлено событие doorIsOpenChanged в класс Door">
+      <created>1590735736210</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1590735736210</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Добалвен метод обновления всех возобнавляемых источников питания на поле в класс Field">
+      <created>1590737048195</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1590737048195</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Добавлено событие об обновлении заряда мельницы">
+      <created>1590738354275</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1590738354275</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Добавлены тесты для updateRenewablePowerSupplies класса Field">
+      <created>1590742871860</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1590742871860</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Добавлено обновление возобнавляемых источников питания на поле">
+      <created>1590748264280</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1590748264280</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Исправления в классе Pair">
+      <created>1590748696426</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1590748696426</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Частично адаптировал WidgetFactory для новой модели">
+      <created>1590750292280</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1590750292280</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Адаптировал ui для запуска на новой модели">
+      <created>1590752059659</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1590752059659</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Добавил виджет двери (DoorWidget)">
+      <created>1590753349539</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1590753349539</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Добавил открытие-закрытие двери">
+      <created>1590754791356</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1590754791357</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Исправлена потеря фокуса у виджета робота">
+      <created>1590755026727</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1590755026727</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Added PowerSupplyWidget">
+      <created>1590756589028</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1590756589029</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Добавлен виджет мельницы">
+      <created>1590758486301</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1590758486301</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Добавлен виджет аккумулятора">
+      <created>1590761362188</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1590761362188</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Добавлена возможность заряжать аккумулятор.">
+      <created>1590762400227</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1590762400228</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Добавлен перезапуск игры">
+      <created>1590816809923</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1590816809923</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Добавлен JavaDoc">
+      <created>1590832295454</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1590832295454</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Переместил изображение в папку resources">
+      <created>1590832881846</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1590832881846</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Добавил диаграмму классов UI">
+      <created>1590940303352</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1590940303352</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Добавил диаграммы последовательности">
+      <created>1590947895147</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1590947895147</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Добавил меню игры.">
+      <created>1591187280584</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1591187280585</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлены тесты и исправления для метода performAction класса Robot" />
+    <MESSAGE value="Исправлен тест test_performAction_withSingleDoorAndNotEnoughCharge" />
+    <MESSAGE value="Исправлена реализация canMove класса Robot и добавлены тесты на возможность" />
+    <MESSAGE value="Добавлены тесты для робота, при смене батарейки" />
+    <MESSAGE value="Добавлено событие doorIsOpenChanged в класс Door" />
+    <MESSAGE value="Добалвен метод обновления всех возобнавляемых источников питания на поле в класс Field" />
+    <MESSAGE value="Добавлено событие об обновлении заряда мельницы" />
+    <MESSAGE value="Добавлены тесты для updateRenewablePowerSupplies класса Field" />
+    <MESSAGE value="Добавлено обновление возобнавляемых источников питания на поле" />
+    <MESSAGE value="Исправления в классе Pair" />
+    <MESSAGE value="Частично адаптировал WidgetFactory для новой модели" />
+    <MESSAGE value="Адаптировал ui для запуска на новой модели" />
+    <MESSAGE value="Добавил виджет двери (DoorWidget)" />
+    <MESSAGE value="Добавил открытие-закрытие двери" />
+    <MESSAGE value="Исправлена потеря фокуса у виджета робота" />
+    <MESSAGE value="Added PowerSupplyWidget" />
+    <MESSAGE value="Добавлен виджет мельницы" />
+    <MESSAGE value="Добавлен виджет аккумулятора" />
+    <MESSAGE value="Добавлена возможность заряжать аккумулятор." />
+    <MESSAGE value="Добавлен перезапуск игры" />
+    <MESSAGE value="Добавлен JavaDoc" />
+    <MESSAGE value="Переместил изображение в папку resources" />
+    <MESSAGE value="Добавил диаграмму классов UI" />
+    <MESSAGE value="Добавил диаграммы последовательности" />
+    <MESSAGE value="Добавил меню игры." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил меню игры." />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OOP_Robots$WallPositionTest.ic" NAME="WallPositionTest Coverage Results" MODIFIED="1585208046511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>robots.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OOP_Robots$robots_in_OOP_Robots.ic" NAME="robots in OOP_Robots Coverage Results" MODIFIED="1590341212696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>robots.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OOP_Robots$All_in_OOP_Robots.ic" NAME="All in OOP_Robots Coverage Results" MODIFIED="1590739309344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/OOP_Robots$WallTest.ic" NAME="WallTest Coverage Results" MODIFIED="1585209328596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>robots.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OOP_Robots$CellTest.ic" NAME="CellTest Coverage Results" MODIFIED="1585205012605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>robots.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OOP_Robots$RobotTest.ic" NAME="RobotTest Coverage Results" MODIFIED="1585226612734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>robots.*</FILTER>
+    </SUITE>
+  </component>
+</project>
