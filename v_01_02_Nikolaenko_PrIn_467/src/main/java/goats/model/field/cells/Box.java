@@ -17,9 +17,10 @@ public class Box extends MobileCellObject {
     public void move(@NotNull Direction direction) {
         Cell oldPosition = position;
         Cell newPosition = canMove(direction);
-
-        position.takeObject(position.getMobileCellObject());
-        newPosition.addObject(this);
+        if(newPosition!=null){
+            position.takeObject(position.getMobileCellObject());
+            newPosition.addObject(this);
+        }
     }
 
     @Override

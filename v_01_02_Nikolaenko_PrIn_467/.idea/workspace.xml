@@ -23,52 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14909e8e-d3c3-4d22-a086-dd76a0e7603e" name="Default Changelist" comment="Добавил меню игры.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/event/GoatActionEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/event/GoatActionEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/event/GoatActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/event/GoatActionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/field/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/field/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/field/cells/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/field/cells/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/labirints/Labirint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/labirints/Labirint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/labirints/SmallLabirint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/labirints/SmallLabirint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/ui/FieldWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/ui/FieldWidget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/ui/WidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/ui/WidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/ui/cell/BoxWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/ui/cell/BoxWidget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/Game$FieldObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/Game$FieldObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/Game$GoatObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/Game$GoatObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/event/GoatActionEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/event/GoatActionEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/event/GoatActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/event/GoatActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/field/Field$ExitCellObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/field/Field$ExitCellObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/field/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/field/Field.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/goats/model/field/cell_objects/Goat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/field/cell_objects/Goat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/goats/model/field/cells/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/field/cells/Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/labirints/Labirint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/labirints/Labirint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/goats/model/labirints/SmallLabirint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/labirints/SmallLabirint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/ui/FieldWidget$FieldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/ui/FieldWidget$FieldController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/ui/FieldWidget$GoatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/ui/FieldWidget$GoatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/ui/WidgetFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/ui/WidgetFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/ui/cell/BoxWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/ui/cell/BoxWidget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/GameTest$Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/GameTest$EventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/GameTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/CellTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/CellTestModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/FieldTest$FieldObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/FieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/GoatTest$EVENT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/GoatTest$EventsListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/GoatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/cell_objects/magic_grass/NotPortablePowerSupply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/cell_objects/magic_grass/SunflowerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/cells/CellWithMagicGrassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/cells/ExitCellTest$EventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/field/cells/ExitCellTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/model/labirint/TestLabirint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/goats/utils/Pair.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -686,11 +647,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил меню игры." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
+        <PinnedItemInfo parentTag="goats.model.field.cell_objects.Goat" memberName="box" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP_Robots$WallPositionTest.ic" NAME="WallPositionTest Coverage Results" MODIFIED="1585208046511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

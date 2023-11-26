@@ -67,9 +67,9 @@ public class SmallLabirint extends Labirint {
     protected void addBox(@NotNull Field field){
         Box box = new Box();
         //Box box2 = new Box();
-        field.getCell(new Point(2, 1)).addObject(box);
+        field.getCell(new Point(0, 2)).addObject(box);
         //field.getCell(new Point(4, 1)).addObject(box2);
-        box.move(Direction.EAST);
+        //box.move(Direction.EAST);
     }
 
 }
