@@ -89,7 +89,7 @@ public class Goat extends MobileCellObject {
         if (newPosition != null) {
             boolean isSpendChargeSuccess = spendMagicStepVolume(AMOUNT_OF_STEP_FOR_MOVE, false);
             if (isSpendChargeSuccess) {
-                MobileCellObject object = newPosition.getNeighborCell(direction).getMobileCellObject();
+                MobileCellObject object = newPosition.getMobileCellObject();
                 if (object != null && object instanceof Box) {
                     moveBox((Box) object, direction);
                     //fireGoatMovedBox(oldPosition, newPosition);
@@ -102,19 +102,17 @@ public class Goat extends MobileCellObject {
     }
 
     public void moveBox(Box box, @NotNull Direction direction){
-       // Cell oldBoxPosition = position;
-        //Cell newBoxPosition = box.canMove(direction);
-        //boolean isSpendPowerSuccess = spendMagicGrassPower(AMOUNT_OF_POWER_FOR_MOVE_BOX, false);
-     //   if (isSpendPowerSuccess) {
-            box.move(direction);
-
-//            if (newBoxPosition != null) {
-//                position = newBoxPosition;
-//                position.takeObject(position.getMobileCellObject());
-//                newBoxPosition.addObject(box);
-//                fireGoatMovedBox(oldBoxPosition, newBoxPosition);
-//            }
-       // }
+        Cell oldBoxPosition = position;
+        Cell newBoxPosition = box.canMove(direction);
+        MobileCellObject object = newBoxPosition.getMobileCellObject();
+        if (object != null && object instanceof Box) {
+        if (newBoxPosition != null) {
+            boolean isSpendPowerSuccess = spendMagicGrassPower(AMOUNT_OF_POWER_FOR_MOVE_BOX, false);
+            if (isSpendPowerSuccess) {
+                box.move(direction);
+                fireGoatMovedBox(oldBoxPosition, newBoxPosition);
+            }
+        }}
     }
 
     @Override

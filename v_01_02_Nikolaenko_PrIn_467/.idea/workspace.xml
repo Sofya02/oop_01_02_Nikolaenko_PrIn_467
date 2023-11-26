@@ -25,10 +25,8 @@
     <list default="true" id="14909e8e-d3c3-4d22-a086-dd76a0e7603e" name="Default Changelist" comment="Добавил меню игры.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/field/cells/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/field/cells/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goats/model/labirints/SmallLabirint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goats/model/labirints/SmallLabirint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/goats/model/field/cell_objects/Goat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/field/cell_objects/Goat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/goats/model/field/cells/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/field/cells/Box.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/goats/model/labirints/SmallLabirint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goats/model/labirints/SmallLabirint.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -647,20 +645,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил меню игры." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/goats/model/field/cell_objects/Goat.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
