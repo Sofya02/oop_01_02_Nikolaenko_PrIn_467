@@ -53,7 +53,10 @@ public class Game {
 
         for(var i : gameField.getGoatsOnField()) {
             i.addGoatActionListener(new GoatObserver());
-
+        }
+         /*****/
+        for(var i : gameField.getBoxesOnField()) {
+            i.addBoxActionListener(new GoatObserver());
         }
 
     }
@@ -197,6 +200,11 @@ public class Game {
 
         @Override
         public void goatChangedMagicGrass(@NotNull GoatActionEvent event) {
+            // Not implemented yet
+        }
+
+        @Override
+        public void goatMovedBox(GoatActionEvent event){
             // Not implemented yet
         }
 

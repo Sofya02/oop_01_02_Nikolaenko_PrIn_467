@@ -1,5 +1,6 @@
 package goats.model.field;
 
+import goats.model.field.cells.Box;
 import org.jetbrains.annotations.NotNull;
 import goats.model.Direction;
 import goats.model.Point;
@@ -106,10 +107,30 @@ public class Field {
     public List<Goat> getGoatsOnField() {
         List<Goat> goats = new ArrayList<>();
         for(var i : cells.entrySet()) {
-            Goat goat = (Goat) i.getValue().getMobileCellObject();
-            if(goat != null) goats.add(goat);
+
+            MobileCellObject object =  i.getValue().getMobileCellObject();
+
+            if(object !=null && object instanceof Goat  ) {
+                goats.add((Goat)object);
+            }
         }
         return goats;
+    }
+
+    /**
+     * Получить ящики на поле.
+     * @return список ящиков на поле.
+     */
+    public List<Box> getBoxesOnField() {
+        List<Box> boxes = new ArrayList<>();
+        for(var i : cells.entrySet()) {
+            MobileCellObject object =  i.getValue().getMobileCellObject();
+
+            if(object !=null && object instanceof Box  ) {
+                boxes.add((Box)object);
+            }
+        }
+        return boxes;
     }
 
     /**

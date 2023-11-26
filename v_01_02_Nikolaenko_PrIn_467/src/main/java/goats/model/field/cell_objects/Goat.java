@@ -1,5 +1,7 @@
 package goats.model.field.cell_objects;
 
+import goats.model.field.CellObject;
+import goats.model.field.cells.Box;
 import org.jetbrains.annotations.NotNull;
 import goats.model.Direction;
 import goats.model.event.GoatActionEvent;
@@ -24,9 +26,20 @@ public class Goat extends MobileCellObject {
     private static final int AMOUNT_OF_STEP_FOR_MOVE = 1;
 
     /**
+     * Количество шагов для перемещения.
+     */
+    private static final int AMOUNT_OF_POWER_FOR_MOVE_BOX = 1;
+
+    /**
      * Внутренний источник питания козы.
      */
     private MagicGrass innerMagicGrass;
+
+    /**
+     * Ящик
+     */
+    private Box box;
+
 
     /**
      * Констрктор.
@@ -38,15 +51,46 @@ public class Goat extends MobileCellObject {
 
     @Override
     public void move(@NotNull Direction direction) {
+//        Cell oldPosition = position;
+//        Cell newPosition = canMove(direction);
+//        if (newPosition != null) {
+//            boolean isSpendChargeSuccess = spendMagicStepVolume(AMOUNT_OF_STEP_FOR_MOVE, false);
+//            if (isSpendChargeSuccess) {
+//                position.takeObject(position.getMobileCellObject());
+//                newPosition.addObject(this);
+//                fireGoatIsMoved(oldPosition, newPosition);
+//            }
+//        }
         Cell oldPosition = position;
         Cell newPosition = canMove(direction);
         if (newPosition != null) {
             boolean isSpendChargeSuccess = spendMagicStepVolume(AMOUNT_OF_STEP_FOR_MOVE, false);
             if (isSpendChargeSuccess) {
-                fireGoatIsMoved(oldPosition, newPosition);
-                position.takeObject(position.getMobileCellObject());
-                newPosition.addObject(this);
+                CellObject object = newPosition.getMobileCellObject();
+                if (object !=null && object instanceof Box ) {
+                    moveBox((Box) object, direction);
+                } else {
+                    position = newPosition;
+                    newPosition.takeObject(this);
+                    newPosition.addObject(this);
+                    fireGoatIsMoved(oldPosition, newPosition);
+                }
             }
+        }
+    }
+
+    public void moveBox(Box box, @NotNull Direction direction){
+//        Cell oldBoxPosition = position;
+//        Cell newBoxPosition = box.canMove(direction);
+        boolean isSpendPowerSuccess = spendMagicGrassPower(AMOUNT_OF_POWER_FOR_MOVE_BOX, false);
+        if (isSpendPowerSuccess) {
+            box.move(direction);
+//            if (newBoxPosition != null) {
+//                position = newBoxPosition;
+//                position.takeObject(position.getMobileCellObject());
+//                newBoxPosition.addObject(box);
+//                fireGoatMovedBox(oldBoxPosition, newBoxPosition);
+//            }
         }
     }
 
@@ -79,6 +123,23 @@ public class Goat extends MobileCellObject {
             fireGoatChangeMagicGrass(innerMagicGrass);
         }
     }
+
+    /**
+     * Установить ящик {@link Goat#box}
+     * @param box ящик.
+     */
+    public void setBox(@NotNull Box box) {
+        this.box = box;
+    }
+
+    /**
+     * Получить ящик {@link Goat#box}.
+     * @return ящик.
+     */
+    public Box getBox() {
+        return box;
+    }
+
 
     /**
      * Установить волшебную траву {@link Goat#innerMagicGrass}
@@ -202,6 +263,22 @@ public class Goat extends MobileCellObject {
             event.setFromCell(oldPosition);
             event.setToCell(newPosition);
             listener.goatIsMoved(event);
+        }
+    }
+
+    /**
+     * Оповестить сулшателей {@link Goat#goatListListener}, что коза переместилась.
+     * @param oldPosition ячейка откуда переместилась коза.
+     * @param newPosition ячейка куда переместилась коза.
+     */
+    private void fireGoatMovedBox(@NotNull Cell oldPosition, @NotNull Cell newPosition) {
+        for (GoatActionListener listener : goatListListener) {
+            GoatActionEvent event = new GoatActionEvent(listener);
+            event.setGoat(this);
+            event.setBox(box);
+            event.setFromCell(oldPosition);
+            event.setToCell(newPosition);
+            listener.goatMovedBox(event);
         }
     }
 

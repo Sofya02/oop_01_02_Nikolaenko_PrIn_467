@@ -34,7 +34,7 @@ public class BoxWidget extends CellItemWidget{
         BufferedImage image = null;
         try {
             image = ImageIO.read(getImageFile());
-            image = ImageUtils.resizeImage(image, 60, 90);
+            image = ImageUtils.resizeImage(image, 100, 100);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -48,7 +48,7 @@ public class BoxWidget extends CellItemWidget{
 
     @Override
     protected Dimension getDimension() {
-        return new Dimension(60, 110);
+        return new Dimension(100, 100);
     }
 
     /**

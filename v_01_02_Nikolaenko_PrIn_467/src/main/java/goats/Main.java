@@ -54,7 +54,7 @@ public class Main {
             JPanel content = (JPanel) this.getContentPane();
             content.removeAll();
             content.add(new FieldWidget(game.getGameField(), widgetFactory));
-            //widgetFactory.getWidget(game.getGoat()).requestFocus();
+           // widgetFactory.getWidget(game.getGoat()).requestFocus();
 
             pack();
         }

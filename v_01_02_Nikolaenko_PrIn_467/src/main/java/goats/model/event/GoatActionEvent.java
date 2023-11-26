@@ -1,5 +1,6 @@
 package goats.model.event;
 
+import goats.model.field.cells.Box;
 import org.jetbrains.annotations.NotNull;
 import goats.model.field.Cell;
 import goats.model.field.cell_objects.Goat;
@@ -31,6 +32,11 @@ public class GoatActionEvent extends EventObject {
      * Волшебная трава.
      */
     private MagicGrass magicGrass;
+
+    /**
+     * Ящик.
+     */
+    private Box box;
 
     /**
      * Установить ячейку {@link GoatActionEvent#fromCell} откуда переместилась коза {@link GoatActionEvent#goat}.
@@ -94,6 +100,23 @@ public class GoatActionEvent extends EventObject {
      */
     public Goat getGoat() {
         return goat;
+    }
+
+
+    /**
+     * Установить ящик {@link GoatActionEvent#box}.
+     * @param box ящик.
+     */
+    public void setBox(@NotNull Box box) {
+        this.box = box;
+    }
+
+    /**
+     * Получить ящик {@link GoatActionEvent#box}.
+     * @return ящик.
+     */
+    public Box getBox() {
+        return box;
     }
 
     /**

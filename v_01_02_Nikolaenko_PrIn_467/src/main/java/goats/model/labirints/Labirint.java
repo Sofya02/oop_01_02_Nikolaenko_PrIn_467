@@ -19,6 +19,7 @@ public abstract class Labirint {
 
         addGoats(field);
         addMagicGrass(field);
+        addBox(field);
 
         return field;
     }
@@ -53,5 +54,10 @@ public abstract class Labirint {
      */
     protected abstract void addMagicGrass(@NotNull Field field);
 
+    /**
+     * Добавить ящики на поле.
+     * @param field поле.
+     */
+    protected abstract void addBox(@NotNull Field field);
 
 }

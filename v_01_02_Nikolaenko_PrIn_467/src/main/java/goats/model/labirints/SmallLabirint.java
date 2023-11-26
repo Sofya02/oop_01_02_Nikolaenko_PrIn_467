@@ -1,6 +1,7 @@
 package goats.model.labirints;
 
 import goats.model.field.cell_objects.magic_grass.FlowerPot;
+import goats.model.field.cells.Box;
 import org.jetbrains.annotations.NotNull;
 import goats.model.*;
 import goats.model.field.Field;
@@ -60,6 +61,15 @@ public class SmallLabirint extends Labirint {
 
         field.getCell(new Point(1, 2)).addObject(sunflower);
         field.getCell(new Point(4, 2)).addObject(flowerPot);
+    }
+
+    @Override
+    protected void addBox(@NotNull Field field){
+        Box box = new Box();
+        //Box box2 = new Box();
+        field.getCell(new Point(2, 1)).addObject(box);
+        //field.getCell(new Point(4, 1)).addObject(box2);
+        box.move(Direction.EAST);
     }
 
 }

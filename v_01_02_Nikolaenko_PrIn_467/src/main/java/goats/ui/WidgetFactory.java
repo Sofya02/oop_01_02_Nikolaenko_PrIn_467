@@ -8,6 +8,7 @@ import goats.model.field.cell_objects.magic_grass.MagicGrass;
 import goats.model.field.cell_objects.magic_grass.Sunflower;
 import goats.model.field.cells.CellWithMagicGrass;
 import goats.model.field.cells.ExitCell;
+import goats.model.field.cells.Box;
 import goats.model.field.cell_objects.Goat;
 import goats.model.field.Cell;
 import goats.ui.cell.*;
@@ -22,7 +23,6 @@ public class WidgetFactory {
 
     private final Map<Cell, CellWidget> cells = new HashMap<>();
     private final Map<CellObject, CellItemWidget> cellObjects = new HashMap<>();
-    private final List<Color> usedColors = new ArrayList<>();
 
     public CellWidget create(@NotNull Cell cell) {
         if(cells.containsKey(cell)) return cells.get(cell);
@@ -63,6 +63,9 @@ public class WidgetFactory {
             createdWidget = new SunflowerWidget((Sunflower) cellObject);
         } else if(cellObject instanceof FlowerPot) {
             createdWidget = new FlowerPotWidget((FlowerPot) cellObject);
+        }
+        else if(cellObject instanceof Box ) {
+            createdWidget = new BoxWidget((Box) cellObject);
         }
         else {
             throw new IllegalArgumentException();
