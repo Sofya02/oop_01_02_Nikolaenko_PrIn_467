@@ -57,7 +57,7 @@ public class SmallLabirint extends Labirint {
     @Override
     protected void addMagicGrass(@NotNull Field field) {
         Sunflower sunflower = new Sunflower(DEFAULT_BATTERY_CHARGE, DEFAULT_POWER);
-        FlowerPot flowerPot = new FlowerPot(10, 3);
+        FlowerPot flowerPot = new FlowerPot(10,3);
 
         field.getCell(new Point(1, 2)).addObject(sunflower);
         field.getCell(new Point(4, 2)).addObject(flowerPot);

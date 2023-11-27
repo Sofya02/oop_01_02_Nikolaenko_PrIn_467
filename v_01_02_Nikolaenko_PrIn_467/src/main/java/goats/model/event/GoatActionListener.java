@@ -22,5 +22,4 @@ public interface GoatActionListener extends EventListener {
      */
     void goatChangedMagicGrass(@NotNull GoatActionEvent event);
 
-    void goatMovedBox(GoatActionEvent event);
 }

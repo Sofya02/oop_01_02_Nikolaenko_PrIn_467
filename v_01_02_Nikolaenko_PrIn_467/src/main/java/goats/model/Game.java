@@ -56,7 +56,7 @@ public class Game {
         }
          /*****/
         for(var i : gameField.getBoxesOnField()) {
-            i.addBoxActionListener(new GoatObserver());
+          //  i.addBoxActionListener(new BoxObserver());
         }
 
     }
@@ -203,12 +203,9 @@ public class Game {
             // Not implemented yet
         }
 
-        @Override
-        public void goatMovedBox(GoatActionEvent event){
-            // Not implemented yet
-        }
 
     }
+
 
     /**
      * Класс, реализующий наблюдение за событиями {@link FieldActionListener}.

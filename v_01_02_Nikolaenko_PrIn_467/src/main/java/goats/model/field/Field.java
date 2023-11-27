@@ -64,8 +64,8 @@ public class Field {
      * @param exitPoint координата ячйки выхода.
      */
     private void buildField(Point exitPoint) {
-        for(int y = 0; y < height; ++y) {
-            for(int x = 0; x < width; ++x) {
+        for(int y = 0; y <height; ++y) {
+            for(int x = 0; x <width; ++x) {
                 Point p = new Point(x, y);
                 Cell cell = p.equals(exitPoint)? new ExitCell() : new CellWithMagicGrass();
                 if(x > 0) cell.setNeighbor(getCell(p.to(Direction.WEST, 1)), Direction.WEST);

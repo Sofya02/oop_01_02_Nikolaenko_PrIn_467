@@ -99,16 +99,6 @@ public class FieldWidget extends JPanel {
         }
 
         @Override
-        public void goatMovedBox(@NotNull GoatActionEvent event) {/**************/
-            CellItemWidget boxWidget = widgetFactory.getWidget(event.getGoat());
-            CellWidget from = widgetFactory.getWidget(event.getFromCell());
-            CellWidget to = widgetFactory.getWidget(event.getToCell());
-            from.removeItem(boxWidget);
-            to.addItem(boxWidget);
-            boxWidget.requestFocus();
-        }
-
-        @Override
         public void goatChangedMagicGrass(@NotNull GoatActionEvent event) {
             Goat goat = event.getGoat();
             CellWidget cellWidget = widgetFactory.getWidget(goat.getPosition());
@@ -116,7 +106,6 @@ public class FieldWidget extends JPanel {
             cellWidget.removeItem(batteryWidget);
             widgetFactory.remove(event.getMagicGrass());
         }
-
 
 
     }

@@ -35,6 +35,7 @@ public class BoxWidget extends CellItemWidget{
         try {
             image = ImageIO.read(getImageFile());
             image = ImageUtils.resizeImage(image, 100, 100);
+            image = boxImage(image);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -59,5 +60,12 @@ public class BoxWidget extends CellItemWidget{
 
         return new File(ImageUtils.IMAGE_PATH + "Ящик.png");
 
+    }
+    private BufferedImage boxImage(BufferedImage boxImage) {
+        BufferedImage img = new BufferedImage(boxImage.getWidth(), 120, BufferedImage.TYPE_INT_ARGB);
+        Graphics g = img.getGraphics();
+        g.drawImage(boxImage, 0, 0, null);
+
+        return img;
     }
 }
