@@ -1,14 +1,12 @@
 package goats.ui;
 
+import goats.model.event.*;
 import org.jetbrains.annotations.NotNull;
 import goats.model.*;
-import goats.model.event.GoatActionEvent;
 import goats.model.field.Cell;
-import goats.model.event.FieldActionEvent;
-import goats.model.event.FieldActionListener;
-import goats.model.event.GoatActionListener;
 import goats.model.field.Field;
 import goats.model.field.cell_objects.Goat;
+import goats.model.field.cells.Box;
 import goats.ui.block.BetweenCellsWidget;
 import goats.ui.cell.*;
 
@@ -26,6 +24,7 @@ public class FieldWidget extends JPanel {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
         fillField();
         subscribeOnRobots();
+        subscribeOnBoxes();
         field.addFieldActionListener(new FieldController());
     }
 
@@ -82,7 +81,13 @@ public class FieldWidget extends JPanel {
         List<Goat> goats = field.getGoatsOnField();
         for(Goat goat : goats) {
             goat.addGoatActionListener(new GoatController());
+        }
+    }
 
+    private void subscribeOnBoxes() {
+        List <Box> boxes = field.getBoxesOnField();
+        for(Box box : boxes) {
+            box.addBoxActionListener(new BoxController());
         }
     }
 
@@ -108,6 +113,19 @@ public class FieldWidget extends JPanel {
         }
 
 
+    }
+
+    private class BoxController implements BoxActionListener {
+
+        @Override
+        public void boxIsMoved(@NotNull BoxActionEvent event) {
+            CellItemWidget boxWidget = widgetFactory.getWidget(event.getBox());
+            CellWidget from = widgetFactory.getWidget(event.getFromCell());
+            CellWidget to = widgetFactory.getWidget(event.getToCell());
+            from.removeItem(boxWidget);
+            to.addItem(boxWidget);
+            boxWidget.repaint();
+        }
     }
 
     private class FieldController implements FieldActionListener {

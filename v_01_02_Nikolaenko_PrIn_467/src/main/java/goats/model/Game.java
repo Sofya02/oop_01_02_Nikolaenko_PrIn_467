@@ -1,5 +1,6 @@
 package goats.model;
 
+import goats.model.field.cells.Box;
 import org.jetbrains.annotations.NotNull;
 import goats.model.event.*;
 import goats.model.field.cell_objects.Goat;
@@ -56,7 +57,7 @@ public class Game {
         }
          /*****/
         for(var i : gameField.getBoxesOnField()) {
-          //  i.addBoxActionListener(new BoxObserver());
+            i.addBoxActionListener(new BoxObserver());
         }
 
     }
@@ -203,11 +204,17 @@ public class Game {
             // Not implemented yet
         }
 
+    }
 
+    private class BoxObserver implements BoxActionListener {
+        @Override
+        public void boxIsMoved(@NotNull BoxActionEvent event) {
+
+        }
     }
 
 
-    /**
+        /**
      * Класс, реализующий наблюдение за событиями {@link FieldActionListener}.
      */
     private class FieldObserver implements FieldActionListener {
@@ -251,6 +258,18 @@ public class Game {
             listener.goatIsMoved(event);
         }
     }
+
+    /**
+     * Оповестить сулшателей {@link Game#gameActionListeners}, что коза переместилась.
+     * @param //goat коза, которая переместилась.
+     */
+   /* private void fireBoxIsMoved(@NotNull Box box) {
+        for(GameActionListener listener: gameActionListeners) {
+            GameActionEvent event = new GameActionEvent(listener);
+            event.setBox(box);
+            listener.goatIsMoved(event);
+        }
+    }*/
 
     /**
      * Оповестить сулшателей {@link Game#gameActionListeners}, что коза телепортировалась.

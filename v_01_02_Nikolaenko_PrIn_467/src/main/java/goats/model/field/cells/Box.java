@@ -43,9 +43,10 @@ public class Box extends MobileCellObject {
             if (neighborCell.getCellObject() instanceof Box) {
                 ((Box) neighborCell.getCellObject()).move(direction);
             }
-            fireBoxIsMoved(oldPosition, newPosition);
+
             position.takeObject(position.getMobileCellObject());
             newPosition.addObject(this);
+            fireBoxIsMoved(oldPosition, newPosition);
         }
     }
 

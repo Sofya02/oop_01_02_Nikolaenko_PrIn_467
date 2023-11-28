@@ -6,5 +6,5 @@ import java.util.EventListener;
 
 public interface BoxActionListener extends EventListener {
 
-    public void boxIsMoved(@NotNull BoxActionEvent event);
+     void boxIsMoved(@NotNull BoxActionEvent event);
 }

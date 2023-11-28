@@ -54,15 +54,21 @@ public class Goat extends MobileCellObject {
         Cell oldPosition = position;
         Cell newPosition = canMove(direction);
         Cell neighborCell = position.getNeighborCell(direction);
+        Box  b;
+
         if (newPosition != null) {
             boolean isSpendChargeSuccess = spendMagicStepVolume(AMOUNT_OF_STEP_FOR_MOVE, false);
             if (isSpendChargeSuccess) {
                 if (neighborCell.getCellObject() instanceof Box) {
-                    ((Box) neighborCell.getCellObject()).move(direction);
+                    b = (Box) neighborCell.getCellObject();
+                    b.move(direction);
+                    int a = 0;
                 }
-                fireGoatIsMoved(oldPosition, newPosition);
+
                 position.takeObject(position.getMobileCellObject());
                 newPosition.addObject(this);
+
+                fireGoatIsMoved(oldPosition, newPosition);
             }
         }
     }
